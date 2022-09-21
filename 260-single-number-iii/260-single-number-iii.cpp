@@ -5,7 +5,7 @@ public:
         for(auto i:nums){
             all^=i;
         }
-        cout<<all;
+      //  cout<<all;
     all&=-all;
         int f=0;
         int l=0;
