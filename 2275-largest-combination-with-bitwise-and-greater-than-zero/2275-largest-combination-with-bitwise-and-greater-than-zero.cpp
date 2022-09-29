@@ -1,19 +1,20 @@
 class Solution {
 public:
     int largestCombination(vector<int>& candidates) {
-       int mx= *max_element(candidates.begin(),candidates.end());
-    
+          int mx= *max_element(candidates.begin(),candidates.end());
+
     int i=1;
     int ans=0;
     while (i<=mx){
         int cnt=0;
-        for (int j = 0; j <candidates.size() ; ++j) {
-            if(i&candidates[j])cnt++;
+     for(auto x:candidates){
+            cnt+=(x&i)?1:0;
         }
         ans=max(cnt,ans);
         i<<=1;
     }
-    
-    return ans;  
+
+    return ans;
+
     }
 };
