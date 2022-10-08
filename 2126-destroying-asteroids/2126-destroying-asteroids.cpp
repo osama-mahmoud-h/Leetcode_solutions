@@ -3,15 +3,15 @@ public:
     bool asteroidsDestroyed(int mass, vector<int>& asteroids) {
         
     sort(asteroids.begin(),asteroids.end());
-    for (int i = 0; i <asteroids.size() ; ++i) {
-        if(mass>=asteroids[i]||mass>=1e5){
-            mass+=mass>=1e5?0:asteroids[i];
+        for(auto i:asteroids){
+        if(mass>=i){
+            mass+=mass>=1e5?0:i;
         } else{
             return 0;
         }
     }
     
-    return true;
+    return 1;
     }
 };
 
