@@ -1,6 +1,6 @@
 class Solution {
 public:
-   unordered_map<string,int>memo;
+      vector<vector<vector<int>>> memo;
 int helper(vector<int>& nums, int target,int i,int sum,bool takeIt){
 
     if(i>=nums.size()||sum>target){
@@ -9,23 +9,26 @@ int helper(vector<int>& nums, int target,int i,int sum,bool takeIt){
     if(sum==target){
         return 1;
     }
-    string k = to_string(nums[i])+"_"+ to_string(takeIt)+"_"+ to_string(sum);
-    if(memo.find(k)!=memo.end()){
-        return memo[k];
+    if(memo[i][sum][takeIt]!=-1){
+        return memo[i][sum][takeIt];
     }
     if(takeIt){
         int summ = 0;
         for (auto x:nums) {
-            summ +=  helper(nums,target,i,sum+x, true);
+            summ +=  helper(nums,target,i,sum+x, 1);
         }
-        return memo[k] = summ;
+        return memo[i][sum][takeIt] = summ;
     }
 
-    int take = helper(nums,target,i+1,sum+nums[i], true);
-    int notTake =  helper(nums,target,i+1,nums[i], false);
-    return memo[k] = take + notTake;
+    int pick = helper(nums,target,i+1,sum+nums[i], 1);
+    int leave =  helper(nums,target,i+1,nums[i], 0);
+    
+    return memo[i][sum][takeIt] = pick + leave;
 }
 int combinationSum4(vector<int>& nums, int target) {
-    return helper(nums,target,0,0, true);
+    int n=nums.size();
+    memo = vector<vector<vector<int>>>(n,vector<vector<int>>(target+1,vector<int>(2,-1)));
+   
+    return helper(nums,target,0,0, 1);
 }
 };
