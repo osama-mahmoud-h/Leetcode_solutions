@@ -24,7 +24,7 @@ int minDays(vector<int>& bloomDay, int m, int k) {
     long long int l=1,h=1e9+7;
     int ans=-1;
     
-    cout<<can_make_poquets(bloomDay,9,m,k);
+   // cout<<can_make_poquets(bloomDay,9,m,k);
         
     while (l<h){
        long long int mid=(l+h)/2;
