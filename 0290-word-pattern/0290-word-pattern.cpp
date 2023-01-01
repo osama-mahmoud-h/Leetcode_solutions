@@ -11,19 +11,12 @@ public:
     
     string word="";
     int i=0;
-    for (char c:s) {
-        if(c==' '){
-            word_map[word].push_back(i++);
+   istringstream in(s);
+    for (string word; in >> word; ++i) {
+         word_map[word].push_back(i);
             words.push_back(word);
-            word="";
-            continue;
-        }
-        word+=c;
     }
-    if(word.length()>0){
-        words.push_back(word);
-        word_map[word].push_back(i);
-    }
+
 
     if(words.size()!=pattern.length()){
         return 0;
