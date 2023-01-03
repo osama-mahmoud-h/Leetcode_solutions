@@ -1,31 +1,32 @@
 class Solution {
 public:
-   int binarySearch(vector<int>& nums,int l,int h, int target){
-    while (l<h){
-        int mid = (l+h)/2;
-        if(nums[mid]==target) {return mid;}
-        else if(nums[mid]<target){
-            l=mid+1;
-        } else{
-            h=mid;
+    bool search(vector<int>& nums, int target) {
+        int l = 0, r = nums.size() - 1;
+        while (l <= r) {
+            while (l < r && nums[l] == nums[l + 1]) {
+                l++;
+            }
+            while (l < r && nums[r] == nums[r - 1]) {
+                r--;
+            }
+            int m = l + (r - l) / 2;
+            if (nums[m] == target) {
+                return true;
+            }
+            if (nums[m] > target) {
+                if (nums[l] > nums[m] || nums[l] <= target) {
+                    r = m - 1;
+                } else {
+                    l = m + 1;
+                }
+            } else {
+                if (nums[l] <= nums[m] || nums[l] > target) {
+                    l = m + 1;
+                } else {
+                    r = m - 1;
+                }
+            }
         }
+        return false;
     }
-    return -1;
-}
-bool search_help(vector<int>& nums,int l,int h, int target){
-    int n = nums.size();
-    if((h-l)==1){
-        return nums[l]==target;
-    }
-    if(nums[h-1]>nums[l]){
-        return binarySearch(nums,l,h,target) != -1;
-    }
-    int mid = (l+h)/2;
-    return search_help(nums,l,mid,target) || search_help(nums,mid,h,target);
-}
-bool search(vector<int>& nums, int target) {
-    int n = nums.size();
-    return search_help(nums,0,n,target);
-}
-
 };
