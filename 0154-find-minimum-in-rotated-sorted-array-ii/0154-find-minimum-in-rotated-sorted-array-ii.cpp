@@ -1,6 +1,9 @@
+#define pb push_back
+#define FastIo ios::sync_with_stdio(0);cin.tie(0)
 class Solution {
 public:
    int search_helper(vector<int>& nums,int l,int h){
+      FastIo; 
     int n = nums.size();
     if((h-l)==1){
         return nums[l];
