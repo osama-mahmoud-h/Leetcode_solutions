@@ -35,7 +35,7 @@ private:
     }
 public:
     int minFlipsMonoIncr(string s) {
-        cout<<s.size()<<"\n";
+     //   cout<<s.size()<<"\n";
         memo =  vector<vector<int>>(s.length(),vector<int>(2,-1));
         return hepler(s,0,0);
     }
