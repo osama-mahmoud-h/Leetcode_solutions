@@ -12,7 +12,7 @@ private:
     }
 public:
     long long minimumTime(vector<int>& time, int totalTrips) {
-        ll n = time.size(), l = 1, r = 1LL * *max_element(time.begin(), time.end()) * totalTrips;
+        ll n = time.size(), l = 0, r = 1LL * *max_element(time.begin(), time.end()) * totalTrips;
         ll sum = 0, ans=-1;
         cout<<n<<"\n";
         while (l<r){
