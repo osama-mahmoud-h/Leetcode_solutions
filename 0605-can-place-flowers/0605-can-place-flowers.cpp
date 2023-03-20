@@ -7,7 +7,7 @@ public:
         
         for (int i = 0; i < sz; ++i) {
             if(flowerbed[i]==0){
-                        cout<<i<<"  , "<<flowerbed[i]<<" \n";
+                       // cout<<i<<"  , "<<flowerbed[i]<<" \n";
 
                 if( (i==0 && flowerbed[i+1]==0) ||
                         (i+1==sz &&flowerbed[i-1]==0) ||
