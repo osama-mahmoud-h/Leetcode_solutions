@@ -1,24 +1,11 @@
 class Solution {
 private:
-
-// Hash function
-    struct hashFunction
-    {
-        size_t operator()(const pair<int ,
-                int> &x) const
-        {
-            return x.first ^ x.second;
-        }
-    };
-
     int mn = 1e8;
-    void dfs(int st,vector<vector<pair<int,int>>>& adj,unordered_set<pair<int,int>,hashFunction>&vis){
-
+    void dfs(int st,vector<vector<pair<int,int>>>& adj,vector<bool>&vis){
+        vis[st] = 1;
         for (const auto &item: adj[st]){
-            if(vis.find({st,item.first})==vis.end()){
-                vis.insert({st, item.first});
-                 vis.insert({item.first,st});
-                mn = min(mn,item.second);
+             mn = min(mn,item.second);
+            if(!vis[item.first]){
                 dfs(item.first,adj,vis);
             }
         }
@@ -32,8 +19,8 @@ public:
             adj[item[0]].push_back({item[1],item[2]});
             adj[item[1]].push_back({item[0],item[2]});
         }
-        unordered_set<pair<int,int>,hashFunction> vis;
-        dfs(1,adj,vis);
+        vector<bool>visted(n+1,0);
+        dfs(1,adj,visted);
         return mn;
     }
 };
