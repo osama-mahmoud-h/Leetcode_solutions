@@ -1,35 +1,31 @@
+
 class Solution {
 private:
-    const static int N = 1e5;
-    int memo[N][3];
-
-    int OO = 1e7;
-    int recur(int idx ,int take,vector<int>&ar){
-        if(take==2){
-            return 0;
-        }
-        if(idx>=ar.size()){
+    vector<vector<int>>memo;
+    int OO = 1e9;
+    int helper(vector<int>&ar,int idx ,bool buy){
+        int n = ar.size();
+        if(idx>=n){
+            if(buy)return 0;
             return -OO;
         }
-        if(memo[idx][take]!=-1){
-            return memo[idx][take];
-        }
-        int pick = 0;
-        if(take==0)
-            pick = -ar[idx] + recur(idx+1,take+1,ar);
-        else
-            pick = ar[idx] + recur(idx+1,take+1,ar);
-
-        int leave = recur(idx+1,take,ar);
+        if(memo[idx][buy]!=-1){return memo[idx][buy];}
         
-        memo[idx][take] = max(pick,leave);
-        return max(pick,leave);
+        int pick = 0, leave = 0;
+        
+        if(buy) 
+           pick = -ar[idx]+ helper(ar,idx+1,!buy); 
+        else
+           pick+=ar[idx];
+           
+        leave = helper(ar,idx+1,buy);
+        
+        return memo[idx][buy] = max(pick,leave);
     }
 public:
-
     int maxProfit(vector<int>& prices) {
-        memset(memo, -1, sizeof(memo));
-        int ans = recur(0,0,prices);
-        return ans<0?0:ans;
+        int n = prices.size();
+        memo = vector<vector<int>>(n,vector<int>(2,-1));
+        return helper(prices,0,1);
     }
 };
