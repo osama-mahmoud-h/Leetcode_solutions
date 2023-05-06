@@ -29,10 +29,10 @@ private:
           ){
             root = new Node(topLeft->val,1);
 
-            delete topLeft ;
-            delete topRight;
-            delete bottomLeft;
-            delete bottomRight;
+            // delete topLeft ;
+            // delete topRight;
+            // delete bottomLeft;
+            // delete bottomRight;
         }
         else{
             root = new Node(1,0);
