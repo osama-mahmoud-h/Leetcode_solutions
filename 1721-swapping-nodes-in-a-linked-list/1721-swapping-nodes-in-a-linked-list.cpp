@@ -28,12 +28,10 @@ public:
         
         
         //swap
-        int tmp = first ? first->val : 0;
+        int tmp = first->val;
         
-        if(first)
-        first->val = slow ? slow->val : 0;
+        first->val = slow->val;
         
-        if(slow)
         slow->val = tmp;
         
         return head;
