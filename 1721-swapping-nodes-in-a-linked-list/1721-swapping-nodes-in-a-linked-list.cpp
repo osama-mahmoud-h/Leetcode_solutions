@@ -20,13 +20,14 @@ public:
         }
         
         fast=first;
-        cout<<(first ? first->val : 0);
         
         while(fast->next ){
             fast = fast->next;
             slow = slow->next;
         }
         
+        
+        //swap
         int tmp = first ? first->val : 0;
         
         if(first)
