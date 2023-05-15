@@ -1,22 +1,36 @@
 class Solution {
-public:
-    int mod=1e9+7;
-    long long solve(int length,int high,int low,int zero,int one,vector<long long>& dp){
-        if(length>=high)return 0;
-        if(dp[length]!=-1)return dp[length];
-        
-        long long a= solve(length+zero,high,low,zero,one,dp);
-         if(zero+length>=low and zero+length<=high)a++;
-        
-        long long b= solve(length+one,high,low,zero,one,dp);
-         if(one+length>=low and one+length<=high)b++;
-        
-        return dp[length]=(a+b)%mod;
-        
+private:
+    int MOD = 1e9+7;
+    int low,high,zero,one;
+    vector<int> memo;
+    int helper(int zeros, int ones){
+
+        int sum = (zeros+ones);
+        if(sum>high){
+            return 0;
+        }
+        if(sum == high){
+            return 1;
+        }
+
+        if(memo[zeros+ones]!=-1){
+            return memo[zeros+ones];
+        }
+
+        int addzero = helper(zeros+zero,ones);
+        int addone = helper(zeros,ones+one);
+        int cntlow = (sum>=low && sum<high) ? 1 : 0;
+
+        return memo[zeros+ones] = (addzero + addone + cntlow) %MOD;
     }
-    
+public:
     int countGoodStrings(int low, int high, int zero, int one) {
-        vector<long long> dp(1e5+1,-1);
-        return int(solve(0,high,low,zero,one,dp));
+        this->low = low;
+        this->high = high;
+        this->zero = zero;
+        this->one = one;
+        memo = vector<int>(high+1,-1);
+        return helper(0,0);
     }
 };
+
