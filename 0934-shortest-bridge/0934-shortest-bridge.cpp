@@ -29,10 +29,7 @@ private:
                 pair<int,int>cur = q.front();
                 q.pop();
                 
-                 if (ar[cur.first][cur.second]==1){
-                      return ans;
-                  }
-                
+               
                 for (const auto &j: dir){
                  
                   if((cur.first+j[0])<0  ||
