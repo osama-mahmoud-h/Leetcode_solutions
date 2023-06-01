@@ -33,7 +33,8 @@ public:
             }
         }
         
-        if(q.empty())return -1;
     }
-    return cnt;    }
+    return -1;    
+    
+    }
 };
