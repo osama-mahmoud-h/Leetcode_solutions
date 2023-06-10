@@ -23,8 +23,6 @@ public:
             sum += (up_empty-(mid-1))>0?(up_empty-(mid-1)):0;
             sum += (low_empty-(mid-1))>0?(low_empty-(mid-1)):0;
           
-           // cout<<mid<<" , "<<sum<<"\n";
-           // cout<<"up:"<<up_empty<<" mid-1: "<<mid-1<<"\n";
            if(sum<=maxSum){
                ans = mid;
                l=mid+1;
