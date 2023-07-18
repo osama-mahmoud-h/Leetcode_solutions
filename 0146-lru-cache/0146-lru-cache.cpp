@@ -5,6 +5,7 @@ private:
     unordered_map<int,int>key_val;
     int size;
     int capacity;
+    
     void  evict(){
         int key = buffer.back();
         buffer.pop_back();
