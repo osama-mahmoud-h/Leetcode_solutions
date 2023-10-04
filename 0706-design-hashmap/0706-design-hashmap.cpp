@@ -1,7 +1,7 @@
 
 class MyHashMap {
 private:
-    int size = 1e4;
+    int size = 10;
     double loadFactor = 0.75;
     vector<list<pair<int,int>>>hMap;
     int curSize;
