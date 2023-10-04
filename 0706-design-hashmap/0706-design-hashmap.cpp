@@ -1,7 +1,7 @@
 
 class MyHashMap {
 private:
-    int size = 10;
+    int size = 1e4;
     double loadFactor = 0.75;
     vector<list<pair<int,int>>>hMap;
     int curSize;
@@ -25,7 +25,7 @@ private:
     };
 public:
     MyHashMap() {
-        hMap.resize(10);
+        hMap.resize(size);
         curSize = 0;
     }
 
