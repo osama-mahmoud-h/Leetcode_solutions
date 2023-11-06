@@ -1,7 +1,6 @@
 class SeatManager {
 private:
 
-    unordered_set<int>reserved;
     priority_queue<int,vector<int>,greater<int>>available;
 public:
     SeatManager(int n) {
@@ -11,20 +10,13 @@ public:
         }
     }
     int reserve() {
-        if(!available.size()){
-            return -1;
-        }
         int cur = available.top();
         available.pop();
-        reserved.insert(cur);
         return cur;
     }
 
     void unreserve(int seatNumber) {
-        if(reserved.find(seatNumber)==reserved.end())
-            return;
         available.push(seatNumber);
-        reserved.erase(seatNumber);
     }
 };
 /**
