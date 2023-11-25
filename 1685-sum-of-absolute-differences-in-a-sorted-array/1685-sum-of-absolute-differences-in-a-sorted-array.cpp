@@ -15,8 +15,8 @@ public:
             leftSum = (i-1<0 ? 0 : nums[i-1]);
             rightSum = nums[n-1] - nums[i];
             
-            int leftNums = i-1<0 ? 0 : i;
-            int rightNums = n-1-i;
+            int leftNums = i;
+            int rightNums = n - 1 - i;
             ans[i] = abs(num*leftNums - leftSum) + abs(num*rightNums - rightSum);
 
         }
