@@ -1,0 +1,26 @@
+<h2><a href="https://leetcode.com/problems/path-crossing/">1496. Path Crossing</a></h2><h3>Easy</h3><hr><div style="border-color: rgb(91, 119, 134) !important;"><p style="border-color: rgb(91, 119, 134) !important;">Given a string <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">path</code>, where <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">path[i] = 'N'</code>, <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">'S'</code>, <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">'E'</code> or <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">'W'</code>, each representing moving one unit north, south, east, or west, respectively. You start at the origin <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">(0, 0)</code> on a 2D plane and walk on the path specified by <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">path</code>.</p>
+
+<p style="border-color: rgb(91, 119, 134) !important;">Return <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">true</code> <em style="color: rgb(234, 238, 241) !important; border-color: rgb(91, 119, 134) !important;">if the path crosses itself at any point, that is, if at any time you are on a location you have previously visited</em>. Return <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">false</code> otherwise.</p>
+
+<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
+<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/06/10/screen-shot-2020-06-10-at-123929-pm.png" style="width: 400px; height: 358px; filter: saturate(0.9) brightness(0.8);">
+<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> path = "NES"
+<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> false 
+<strong style="border-color: rgb(83, 109, 122) !important;">Explanation:</strong> Notice that the path doesn't cross any point more than once.
+</pre>
+
+<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/06/10/screen-shot-2020-06-10-at-123843-pm.png" style="width: 400px; height: 339px; filter: saturate(0.9) brightness(0.8);">
+<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> path = "NESWW"
+<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> true
+<strong style="border-color: rgb(83, 109, 122) !important;">Explanation:</strong> Notice that the path visits the origin twice.</pre>
+
+<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
+<p style="border-color: rgb(91, 119, 134) !important;"><strong style="border-color: rgb(91, 119, 134) !important;">Constraints:</strong></p>
+
+<ul style="border-color: rgb(91, 119, 134) !important;">
+	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">1 &lt;= path.length &lt;= 10<sup style="border-color: rgb(83, 109, 121) !important;">4</sup></code></li>
+	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">path[i]</code> is either <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">'N'</code>, <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">'S'</code>, <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">'E'</code>, or <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">'W'</code>.</li>
+</ul>
+</div>
