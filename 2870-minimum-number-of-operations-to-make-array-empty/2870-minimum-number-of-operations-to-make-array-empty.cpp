@@ -7,15 +7,11 @@ public:
             mp[x]++;
         }
 
-        for (const auto &item : mp){
-            int count = item.second;
-            if(count<=1){
+        for (const auto &[key,val] : mp){
+            if(val<=1){
                 return -1;
             }
-            ans += count/3;
-            if(count%3 != 0){
-                ans++;
-            } 
+            ans += ceil((double)(val) / 3);
         }
 
         return ans;
