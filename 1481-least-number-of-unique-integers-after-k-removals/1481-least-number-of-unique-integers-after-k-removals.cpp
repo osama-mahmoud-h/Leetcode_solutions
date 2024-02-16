@@ -1,31 +1,26 @@
-class Solution {
-  static  bool cmp(pair<int,int>p1,pair<int,int>p2){
-    return p1.second<p2.second;
-}
 
+class Solution {
 public:
     int findLeastNumOfUniqueInts(vector<int>& arr, int k) {
-        unordered_map<int,int>map;
-        for(auto i:arr){
-            map[i]++;
-        }
+        unordered_map<int,int>freq;
+        for (const auto &item: arr)
+            freq[item]++;
+        int unique_count = freq.size();
         
-    vector<pair<int,int>>tmp;
-    for (auto i:map){
-        tmp.push_back(make_pair(i.first,i.second));
-    }
-
-    sort(tmp.begin(),tmp.end(),cmp);
-        for(auto i:tmp){
-            if(k>=i.second){
-                k-=i.second;
-                map.erase(i.first);
+        //put map values in array;
+        vector<int>freq_values;
+        for (const auto &item: freq)
+            freq_values.push_back(item.second);
+        
+        sort(freq_values.begin(),freq_values.end());
+        for (const auto &item: freq_values){
+            if(k>=item){
+                k-=item;
+                unique_count --;
             }else{
                 break;
             }
         }
-        
-        
-        return map.size();
+        return  unique_count;
     }
 };
