@@ -15,7 +15,7 @@ class Solution {
             return 1;
         if((!p&&q)||(p&&!q))
             return 0;
-        return p->val==q->val &&
+        return p->val == q->val &&
                is_equal(q->left,p->left) && 
                is_equal(q->right,p->right) ;
     }
