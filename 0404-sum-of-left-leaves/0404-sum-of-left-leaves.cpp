@@ -9,9 +9,6 @@ private:
     }
 public:
     int sumOfLeftLeaves(TreeNode* root) {
-        if (root== nullptr) return 0;
-        int ans = 0;
-
         return sum(root,0);
     }
 };
