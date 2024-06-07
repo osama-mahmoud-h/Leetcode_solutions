@@ -1,0 +1,34 @@
+<h2><a href="https://leetcode.com/problems/replace-words/">648. Replace Words</a></h2><h3>Medium</h3><hr><div style="border-color: rgb(91, 119, 134) !important;"><p style="border-color: rgb(91, 119, 134) !important;">In English, we have a concept called <strong style="border-color: rgb(91, 119, 134) !important;">root</strong>, which can be followed by some other word to form another longer word - let's call this word <strong style="border-color: rgb(91, 119, 134) !important;">derivative</strong>. For example, when the <strong style="border-color: rgb(91, 119, 134) !important;">root</strong> <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">"help"</code> is followed by the word <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">"ful"</code>, we can form a derivative <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">"helpful"</code>.</p>
+
+<p style="border-color: rgb(91, 119, 134) !important;">Given a <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">dictionary</code> consisting of many <strong style="border-color: rgb(91, 119, 134) !important;">roots</strong> and a <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">sentence</code> consisting of words separated by spaces, replace all the derivatives in the sentence with the <strong style="border-color: rgb(91, 119, 134) !important;">root</strong> forming it. If a derivative can be replaced by more than one <strong style="border-color: rgb(91, 119, 134) !important;">root</strong>, replace it with the <strong style="border-color: rgb(91, 119, 134) !important;">root</strong> that has <strong style="border-color: rgb(91, 119, 134) !important;">the shortest length</strong>.</p>
+
+<p style="border-color: rgb(91, 119, 134) !important;">Return <em style="color: rgb(234, 238, 241) !important; border-color: rgb(91, 119, 134) !important;">the <code style="background-color: rgb(20, 28, 32) !important; color: rgb(222, 229, 232) !important; border-color: rgb(83, 109, 121) !important;">sentence</code></em> after the replacement.</p>
+
+<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
+<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 1:</strong></p>
+
+<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> dictionary = ["cat","bat","rat"], sentence = "the cattle was rattled by the battery"
+<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> "the cat was rat by the bat"
+</pre>
+
+<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 2:</strong></p>
+
+<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> dictionary = ["a","b","c"], sentence = "aadsfasf absbs bbab cadsfafs"
+<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> "a a b c"
+</pre>
+
+<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
+<p style="border-color: rgb(91, 119, 134) !important;"><strong style="border-color: rgb(91, 119, 134) !important;">Constraints:</strong></p>
+
+<ul style="border-color: rgb(91, 119, 134) !important;">
+	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">1 &lt;= dictionary.length &lt;= 1000</code></li>
+	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">1 &lt;= dictionary[i].length &lt;= 100</code></li>
+	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">dictionary[i]</code> consists of only lower-case letters.</li>
+	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">1 &lt;= sentence.length &lt;= 10<sup style="border-color: rgb(83, 109, 121) !important;">6</sup></code></li>
+	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">sentence</code> consists of only lower-case letters and spaces.</li>
+	<li style="border-color: rgb(91, 119, 134) !important;">The number of words in <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">sentence</code> is in the range <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">[1, 1000]</code></li>
+	<li style="border-color: rgb(91, 119, 134) !important;">The length of each word in <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">sentence</code> is in the range <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">[1, 1000]</code></li>
+	<li style="border-color: rgb(91, 119, 134) !important;">Every two consecutive words in <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">sentence</code> will be separated by exactly one space.</li>
+	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">sentence</code> does not have leading or trailing spaces.</li>
+</ul>
+</div>
