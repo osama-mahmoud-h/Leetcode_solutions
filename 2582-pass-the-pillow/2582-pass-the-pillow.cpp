@@ -1,18 +1,11 @@
 class Solution {
 public:
     int passThePillow(int n, int time) {
-        int ans = 0;
-        int i = 1;
-        int inc = 1;
+        int turns = time/(n-1);
         
-        while(time){
-            if(i==n || (i==1 && inc<0)){
-                inc *= -1;
-            }
-            i += inc;
-            time--;
-            ans = i;
-        }
-        return ans;
+        int extra_time = time % (n-1);
+        bool is_going_foward = !(turns&1);
+        
+        return is_going_foward ? ++extra_time : n - extra_time;
     }
 };
