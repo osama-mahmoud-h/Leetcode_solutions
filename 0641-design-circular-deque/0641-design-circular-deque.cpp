@@ -1,3 +1,4 @@
+
 struct Node {
     int val;
     Node* prev;
@@ -19,14 +20,9 @@ public:
         this->size = 0;
         head = tail = nullptr;
     }
-
-    void handle_circle(){
-        head->prev = tail;
-        tail->next = head;
-    }
-
+    
     bool insertFront(int value) {
-        if(size >=k )
+        if(isFull())
             return false;
         if(head== nullptr){
             head = tail = new Node(value);
@@ -35,16 +31,13 @@ public:
             tmp->next = head;
             head->prev = tmp;
             head = tmp;
-
-            // add circular
-            handle_circle();
         }
         size++;
         return true;
     }
 
     bool insertLast(int value) {
-        if(size >=k )
+        if(isFull())
             return false;
         if (tail== nullptr)
             return insertFront(value);
@@ -53,13 +46,12 @@ public:
         tail->next = tmp;
         tmp->prev = tail;
         tail = tmp;
-        handle_circle();
         size++;
         return true;
     }
 
     bool deleteFront() {
-        if(size <= 0)
+        if(isEmpty())
             return false;
         if(head==tail){
             delete head;
@@ -68,14 +60,13 @@ public:
             Node* tmp= head;
             head = head->next;
             delete tmp;
-            handle_circle();
         }
         size--;
         return true;
     }
 
     bool deleteLast() {
-        if(size <= 0)
+        if(isEmpty())
             return false;
         if(head==tail){
             delete head;
@@ -84,18 +75,17 @@ public:
             Node* tmp= tail;
             tail = tail->prev;
             delete tmp;
-            handle_circle();
         }
         size--;
         return true;
     }
 
     int getFront() {
-        return head== nullptr ? -1 : head->val;
+        return isEmpty() ? -1 : head->val;
     }
 
     int getRear() {
-        return tail== nullptr ? -1 : tail->val;
+        return isEmpty() ? -1 : tail->val;
     }
 
     bool isEmpty() {
