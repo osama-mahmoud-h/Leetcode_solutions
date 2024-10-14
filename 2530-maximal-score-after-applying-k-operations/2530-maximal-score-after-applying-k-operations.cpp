@@ -13,8 +13,8 @@ public:
             auto top = pq.top();
             pq.pop();
             ans += top.first;
-            pq.push({ceil(top.first*1.0/3), top.second});
-            nums[top.second] = ceil(top.first*1.0/3);
+            pq.push({ceil(top.first/3.0), top.second});
+            nums[top.second] = ceil(top.first/3.0);
         }
         return ans;
     }
