@@ -1,23 +1,24 @@
-<h2><a href="https://leetcode.com/problems/solving-questions-with-brainpower/">2140. Solving Questions With Brainpower</a></h2><h3>Medium</h3><hr><div><p>You are given a <strong>0-indexed</strong> 2D integer array <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">questions</code> where <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">questions[i] = [points<sub>i</sub>, brainpower<sub>i</sub>]</code>.</p>
+<h2><a href="https://leetcode.com/problems/solving-questions-with-brainpower/?envType=daily-question&envId=2025-04-01">2140. Solving Questions With Brainpower</a></h2><h3>Medium</h3><hr><p>You are given a <strong>0-indexed</strong> 2D integer array <code>questions</code> where <code>questions[i] = [points<sub>i</sub>, brainpower<sub>i</sub>]</code>.</p>
 
-<p>The array describes the questions of an exam, where you have to process the questions <strong>in order</strong> (i.e., starting from question <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">0</code>) and make a decision whether to <strong>solve</strong> or <strong>skip</strong> each question. Solving question <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">i</code> will <strong>earn</strong> you <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">points<sub>i</sub></code> points but you will be <strong>unable</strong> to solve each of the next <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">brainpower<sub>i</sub></code> questions. If you skip question <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">i</code>, you get to make the decision on the next question.</p>
+<p>The array describes the questions of an exam, where you have to process the questions <strong>in order</strong> (i.e., starting from question <code>0</code>) and make a decision whether to <strong>solve</strong> or <strong>skip</strong> each question. Solving question <code>i</code> will <strong>earn</strong> you <code>points<sub>i</sub></code> points but you will be <strong>unable</strong> to solve each of the next <code>brainpower<sub>i</sub></code> questions. If you skip question <code>i</code>, you get to make the decision on the next question.</p>
 
 <ul>
-	<li>For example, given <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">questions = [[3, 2], [4, 3], [4, 4], [2, 5]]</code>:
+	<li>For example, given <code>questions = [[3, 2], [4, 3], [4, 4], [2, 5]]</code>:
 
 	<ul>
-		<li>If question <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">0</code> is solved, you will earn <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">3</code> points but you will be unable to solve questions <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">1</code> and <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">2</code>.</li>
-		<li>If instead, question <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">0</code> is skipped and question <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">1</code> is solved, you will earn <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">4</code> points but you will be unable to solve questions <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">2</code> and <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">3</code>.</li>
+		<li>If question <code>0</code> is solved, you will earn <code>3</code> points but you will be unable to solve questions <code>1</code> and <code>2</code>.</li>
+		<li>If instead, question <code>0</code> is skipped and question <code>1</code> is solved, you will earn <code>4</code> points but you will be unable to solve questions <code>2</code> and <code>3</code>.</li>
 	</ul>
 	</li>
 </ul>
 
-<p>Return <em style="color: rgb(234, 238, 241) !important;">the <strong>maximum</strong> points you can earn for the exam</em>.</p>
+<p>Return <em>the <strong>maximum</strong> points you can earn for the exam</em>.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important;"><strong>Input:</strong> questions = [[3,2],[4,3],[4,4],[2,5]]
+<pre>
+<strong>Input:</strong> questions = [[3,2],[4,3],[4,4],[2,5]]
 <strong>Output:</strong> 5
 <strong>Explanation:</strong> The maximum points can be earned by solving questions 0 and 3.
 - Solve question 0: Earn 3 points, will be unable to solve the next 2 questions
@@ -28,7 +29,8 @@ Total points earned: 3 + 2 = 5. There is no other way to earn 5 or more points.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important;"><strong>Input:</strong> questions = [[1,1],[2,2],[3,3],[4,4],[5,5]]
+<pre>
+<strong>Input:</strong> questions = [[1,1],[2,2],[3,3],[4,4],[5,5]]
 <strong>Output:</strong> 7
 <strong>Explanation:</strong> The maximum points can be earned by solving questions 1 and 4.
 - Skip question 0
@@ -42,8 +44,7 @@ Total points earned: 2 + 5 = 7. There is no other way to earn 7 or more points.
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">1 &lt;= questions.length &lt;= 10<sup>5</sup></code></li>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">questions[i].length == 2</code></li>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">1 &lt;= points<sub>i</sub>, brainpower<sub>i</sub> &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= questions.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>questions[i].length == 2</code></li>
+	<li><code>1 &lt;= points<sub>i</sub>, brainpower<sub>i</sub> &lt;= 10<sup>5</sup></code></li>
 </ul>
-</div>
