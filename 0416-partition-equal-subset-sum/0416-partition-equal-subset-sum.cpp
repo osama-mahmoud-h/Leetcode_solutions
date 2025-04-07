@@ -3,18 +3,18 @@ private:
     vector<vector<int>>memo;
     bool helper(vector<int>&A, int idx, int sum ,int rem){
         if(idx >= A.size()){
+            if(sum == rem)
+                return 1;
             return 0;
         }
-        sum += A[idx];
-        rem -= A[idx];
-        if(sum==rem)
+        if(sum == rem)
             return memo[idx][sum] =  1;
 
         if(memo[idx][sum]!=-1){
             return memo[idx][sum];
         }
-        bool pick = helper(A,idx+1, sum, rem);
-        bool leave = helper(A,idx+1, sum -  A[idx], rem +  A[idx]);
+        bool pick = helper(A,idx+1, sum + A[idx], rem - A[idx]);
+        bool leave = helper(A,idx+1, sum , rem );
 
         return memo[idx][sum] = (pick or leave);
     }
