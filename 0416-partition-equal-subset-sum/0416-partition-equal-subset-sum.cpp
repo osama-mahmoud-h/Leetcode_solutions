@@ -22,7 +22,7 @@ public:
     bool canPartition(vector<int>& A) {
         sort(A.begin(), A.end());
         int sum = accumulate(A.begin(), A.end(),0);
-        memo = vector<vector<int>>(A.size(),vector<int>(20001,-1));
+        memo = vector<vector<int>>(A.size(),vector<int>(sum+1,-1));
         return helper(A,1,0,sum);
     }
 };
