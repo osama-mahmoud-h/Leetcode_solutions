@@ -1,17 +1,27 @@
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        vector<int>ans;
-        unordered_map<int,int>freq;
-        for (const auto &item: nums1){
-            freq[item]++;
-        }
-        for (const auto &item: nums2){
-            if(freq.find(item)!=freq.end() and freq[item]>0){
-                ans.push_back(item);
-                freq[item]--;
+        sort(nums1.begin(), nums1.end());
+        sort(nums2.begin(), nums2.end());
+        vector<int> ans;
+
+        int i = 0, j = 0;
+        int n = nums1.size(), m = nums2.size();
+
+        while(i<n and j<m){
+            if(nums1[i] < nums2[j]){
+                i++;
+            }else if(nums2[j] < nums1[i]){
+                j++;
+            }else{
+                int cur = nums1[i];
+                ans.push_back(nums1[i]);
+                j++,i++;
+               // while(i<n and cur==nums1[i++]){}
+              //  while(j<m and cur==nums2[j++]){}
             }
         }
+
         return ans;
     }
 };
