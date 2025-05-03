@@ -8,8 +8,6 @@ private:
              }else if(bottoms[i] == val){
                  min++;
              }else{
-                 cout<<"top: "<<tops[i]<<" , bottom: "<<bottoms[i]<<"\n";
-                 cout<<"i: "<<i<<" , val: "<<val<<"\n";
                  return -1;
              }
          }
@@ -21,18 +19,28 @@ public:
         
         int min_top_flips = min_flips(tops, bottoms, first_top);
         int min_bottom_flips = min_flips(bottoms,tops ,first_top);
-       
-        cout<<"min_top_flips: "<<min_top_flips<<"\n";
-        cout<<"min_bottom_flips: "<<min_bottom_flips<<"\n";
 
-        if(min_top_flips == -1 and min_bottom_flips == -1){
+        vector<int>ans = {
+            min_flips(tops, bottoms, first_top),
+            min_flips(bottoms,tops ,first_top),
+            min_flips(tops, bottoms, first_bottom),
+            min_flips(bottoms,tops ,first_bottom)
+        };
+       
+        //cout<<"min_top_flips: "<<min_top_flips<<"\n";
+       // cout<<"min_bottom_flips: "<<min_bottom_flips<<"\n";
+
+        if(ans[0]==-1 and ans[1]==-1 and ans[2]==-1 and ans[3]==-1){
             return -1;
         }
 
-
+        int res = INT_MAX;
+        for (auto const &i: ans){
+            if(i==-1)
+                continue;
+                res = min(res,i);
+        }
         
-        return (min_top_flips * min_bottom_flips ) > 0 ?
-                min(min_top_flips, min_bottom_flips) :
-                max(min_top_flips, min_bottom_flips);
+        return res;
     }
 };
