@@ -17,9 +17,6 @@ public:
     int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {
         int first_top = tops[0], first_bottom = bottoms[0];
         
-        int min_top_flips = min_flips(tops, bottoms, first_top);
-        int min_bottom_flips = min_flips(bottoms,tops ,first_top);
-
         vector<int>ans = {
             min_flips(tops, bottoms, first_top),
             min_flips(bottoms,tops ,first_top),
