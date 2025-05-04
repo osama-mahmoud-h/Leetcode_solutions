@@ -10,14 +10,15 @@ public:
             list.push_back(l_sum);
         }
 
+        int ans = -1;
         for (int k = n-1; k >=0 ; --k) {
             r_sum += nums[k];
             if(list.back() == r_sum){
-                return k;
+                ans =  k;
             }
             list.pop_back();
         }
 
-        return -1;
+        return ans;
     }
 };
