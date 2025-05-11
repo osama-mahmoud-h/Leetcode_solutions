@@ -1,7 +1,7 @@
-# Write your MySQL query statement below
+-- Write your PostgreSQL query statement below
+SELECT *
 
-select *
-from Patients
-where conditions is not null and conditions like 'DIAB1%'
-or conditions like '% DIAB1%';
+FROM Patients
 
+WHERE conditions like 'DIAB1%'
+     OR conditions like '% DIAB1%'
