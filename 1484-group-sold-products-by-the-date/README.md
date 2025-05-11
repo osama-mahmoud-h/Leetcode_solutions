@@ -1,29 +1,31 @@
-<h2><a href="https://leetcode.com/problems/group-sold-products-by-the-date/">1484. Group Sold Products By The Date</a></h2><h3>Easy</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg" style="transition-property: -border-bottom-color !important; --link-color:rgb(161, 178, 190) !important; --link-color-hover:rgb(180, 193, 203) !important; --link-color-active:rgb(158, 175, 188) !important; --visited-color:rgb(160, 117, 234) !important; --visited-color-hover:rgb(179, 144, 238) !important; --visited-color-active:rgb(157, 113, 234) !important; border-top-color: rgb(92, 119, 133) !important; border-right-color: rgb(92, 119, 133) !important; border-left-color: rgb(92, 119, 133) !important;">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2" style="fill: rgb(195, 207, 213) !important;"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">Activities</code>:</p>
+<h2><a href="https://leetcode.com/problems/group-sold-products-by-the-date">1484. Group Sold Products By The Date</a></h2><h3>Easy</h3><hr><p>Table <code>Activities</code>:</p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 206) !important;">+-------------+---------+
+<pre>
++-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
 | sell_date   | date    |
 | product     | varchar |
 +-------------+---------+
-There is no primary key for this table, it may contain duplicates.
+There is no primary key (column with unique values) for this table. It may contain duplicates.
 Each row of this table contains the product name and the date it was sold in a market.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>Write an SQL query to find for each date the number of different products sold and their names.</p>
+<p>Write a solution to find for each date the number of different products sold and their names.</p>
 
 <p>The sold products names for each date should be sorted lexicographically.</p>
 
-<p>Return the result table ordered by <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">sell_date</code>.</p>
+<p>Return the result table ordered by <code>sell_date</code>.</p>
 
-<p>The query result format is in the following example.</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 206) !important;"><strong>Input:</strong> 
+<pre>
+<strong>Input:</strong> 
 Activities table:
 +------------+------------+
 | sell_date  | product     |
@@ -49,4 +51,3 @@ For 2020-05-30, Sold items were (Headphone, Basketball, T-shirt), we sort them l
 For 2020-06-01, Sold items were (Pencil, Bible), we sort them lexicographically and separate them by a comma.
 For 2020-06-02, the Sold item is (Mask), we just return it.
 </pre>
-</div>
