@@ -1,14 +1,11 @@
 class Solution {
-    private:
-    bool is_odd(int n){
-        return n&1;
-        }
 public:
-    bool threeConsecutiveOdds(vector<int>& a) {
-        for (int i=1; i<a.size()-1;i++){
-            if(is_odd(a[i-1]) && is_odd(a[i]) && is_odd(a[i+1]))
-                return 1;
-            }
-            return 0;
+    bool threeConsecutiveOdds(vector<int>& ar) {
+
+        for(int i = 1; i< ar.size()-1 ; i++){
+            if((ar[i-1]&1) and (ar[i]&1) and (ar[i+1]&1))
+                 return 1;
+        }
+        return 0;
     }
 };
