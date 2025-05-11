@@ -1,12 +1,10 @@
-# Write your MySQL query statement below
+-- Write your PostgreSQL query statement below
+select
+    user_id,
+    CONCAT(
+        UPPER(LEFT(name,1)),
+        LOWER(RIGHT(name, LENGTH(name)-1))
+    ) as name
+from Users
+order by user_id
 
-SELECT user_id,
-concat(UPPER(LEFT(name,1)) ,LOWER(RIGHT(name,LENGTH(name)-1))) as name
-FROM Users
-ORDER BY user_id
-
-
-/*
-SELECT concat(name,name)
-
-FROM Users*/
