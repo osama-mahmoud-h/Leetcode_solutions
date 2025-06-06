@@ -1,49 +1,51 @@
-<h2><a href="https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/">2434. Using a Robot to Print the Lexicographically Smallest String</a></h2><h3>Medium</h3><hr><div><p>You are given a string <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">s</code> and a robot that currently holds an empty string <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">t</code>. Apply one of the following operations until <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">s</code> and <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">t</code> <strong>are both empty</strong>:</p>
+<h2><a href="https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/?envType=daily-question&envId=2025-06-06">2434. Using a Robot to Print the Lexicographically Smallest String</a></h2><h3>Medium</h3><hr><p>You are given a string <code>s</code> and a robot that currently holds an empty string <code>t</code>. Apply one of the following operations until <code>s</code> and <code>t</code> <strong>are both empty</strong>:</p>
 
 <ul>
-	<li>Remove the <strong>first</strong> character of a string <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">s</code> and give it to the robot. The robot will append this character to the string <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">t</code>.</li>
-	<li>Remove the <strong>last</strong> character of a string <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">t</code> and give it to the robot. The robot will write this character on paper.</li>
+	<li>Remove the <strong>first</strong> character of a string <code>s</code> and give it to the robot. The robot will append this character to the string <code>t</code>.</li>
+	<li>Remove the <strong>last</strong> character of a string <code>t</code> and give it to the robot. The robot will write this character on paper.</li>
 </ul>
 
-<p>Return <em style="color: rgb(234, 238, 241) !important;">the lexicographically smallest string that can be written on the paper.</em></p>
+<p>Return <em>the lexicographically smallest string that can be written on the paper.</em></p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important;"><strong>Input:</strong> s = "zza"
-<strong>Output:</strong> "azz"
+<pre>
+<strong>Input:</strong> s = &quot;zza&quot;
+<strong>Output:</strong> &quot;azz&quot;
 <strong>Explanation:</strong> Let p denote the written string.
-Initially p="", s="zza", t="".
-Perform first operation three times p="", s="", t="zza".
-Perform second operation three times p="azz", s="", t="".
+Initially p=&quot;&quot;, s=&quot;zza&quot;, t=&quot;&quot;.
+Perform first operation three times p=&quot;&quot;, s=&quot;&quot;, t=&quot;zza&quot;.
+Perform second operation three times p=&quot;azz&quot;, s=&quot;&quot;, t=&quot;&quot;.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important;"><strong>Input:</strong> s = "bac"
-<strong>Output:</strong> "abc"
+<pre>
+<strong>Input:</strong> s = &quot;bac&quot;
+<strong>Output:</strong> &quot;abc&quot;
 <strong>Explanation:</strong> Let p denote the written string.
-Perform first operation twice p="", s="c", t="ba". 
-Perform second operation twice p="ab", s="c", t="". 
-Perform first operation p="ab", s="", t="c". 
-Perform second operation p="abc", s="", t="".
+Perform first operation twice p=&quot;&quot;, s=&quot;c&quot;, t=&quot;ba&quot;. 
+Perform second operation twice p=&quot;ab&quot;, s=&quot;c&quot;, t=&quot;&quot;. 
+Perform first operation p=&quot;ab&quot;, s=&quot;&quot;, t=&quot;c&quot;. 
+Perform second operation p=&quot;abc&quot;, s=&quot;&quot;, t=&quot;&quot;.
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important;"><strong>Input:</strong> s = "bdda"
-<strong>Output:</strong> "addb"
+<pre>
+<strong>Input:</strong> s = &quot;bdda&quot;
+<strong>Output:</strong> &quot;addb&quot;
 <strong>Explanation:</strong> Let p denote the written string.
-Initially p="", s="bdda", t="".
-Perform first operation four times p="", s="", t="bdda".
-Perform second operation four times p="addb", s="", t="".
+Initially p=&quot;&quot;, s=&quot;bdda&quot;, t=&quot;&quot;.
+Perform first operation four times p=&quot;&quot;, s=&quot;&quot;, t=&quot;bdda&quot;.
+Perform second operation four times p=&quot;addb&quot;, s=&quot;&quot;, t=&quot;&quot;.
 </pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">s</code> consists of only English lowercase letters.</li>
+	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>s</code> consists of only English lowercase letters.</li>
 </ul>
-</div>
