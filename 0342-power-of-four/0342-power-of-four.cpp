@@ -1,34 +1,10 @@
 class Solution {
 public:
     bool isPowerOfFour(int n) {
-        return n > 0 && ((n-1)&n)==0 && ( __builtin_popcount(n-1)%2==0);
+        if(n<=0)
+            return false;
+        long long N = (long long)n;
+        int last_one_position = 32 - __builtin_clz(n);
+        return (N&(N-1)) == 0 and (last_one_position - 1)%2 == 0;
     }
 };
-/**
-
-0 0 0 0 0
-
-8:1 0 0 0
-           &
-7:0 1 1 1
---------
- 0 0 0 0 
-
-0 0 0 1 1
-        &
-0 0 1 0 0
----------
-0 0 0 0 0
-
-0 0 1 1 1
-          &
-0 1 0 0 0
-----------
-
-
-1 0 0 0 0 0 0
-
-4
-16
-64
-*/
