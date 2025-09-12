@@ -5,7 +5,6 @@ private:
     }
 public:
     bool doesAliceWin(string s) {
-        int cntv = 0;
         for(auto const& c : s){
             if(is_vowel(c))
                 return 1;
