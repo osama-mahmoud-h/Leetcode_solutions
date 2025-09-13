@@ -1,7 +1,8 @@
 class Solution {
 private:
     bool is_vowel(char c){
-        return unordered_set<char>{'a', 'e', 'i', 'o', 'u'}.count(tolower(c));
+        c = tolower(c);
+        return c == 'a' or c == 'e' or c == 'i' or c == 'o' or c == 'u';
     }
 public:
     int maxFreqSum(string s) {
