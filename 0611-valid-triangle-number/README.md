@@ -1,9 +1,10 @@
-<h2><a href="https://leetcode.com/problems/valid-triangle-number/">611. Valid Triangle Number</a></h2><h3>Medium</h3><hr><div><p>Given an integer array <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">nums</code>, return <em style="color: rgb(234, 238, 241) !important;">the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle</em>.</p>
+<h2><a href="https://leetcode.com/problems/valid-triangle-number/?envType=daily-question&envId=2025-09-26">611. Valid Triangle Number</a></h2><h3>Medium</h3><hr><p>Given an integer array <code>nums</code>, return <em>the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle</em>.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important;"><strong>Input:</strong> nums = [2,2,3,4]
+<pre>
+<strong>Input:</strong> nums = [2,2,3,4]
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> Valid combinations are: 
 2,3,4 (using the first 2)
@@ -13,7 +14,8 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important;"><strong>Input:</strong> nums = [4,2,3,4]
+<pre>
+<strong>Input:</strong> nums = [4,2,3,4]
 <strong>Output:</strong> 4
 </pre>
 
@@ -21,7 +23,6 @@
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">1 &lt;= nums.length &lt;= 1000</code></li>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">0 &lt;= nums[i] &lt;= 1000</code></li>
+	<li><code>1 &lt;= nums.length &lt;= 1000</code></li>
+	<li><code>0 &lt;= nums[i] &lt;= 1000</code></li>
 </ul>
-</div>
