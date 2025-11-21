@@ -1,49 +1,51 @@
-<h2><a href="https://leetcode.com/problems/unique-length-3-palindromic-subsequences/">1930. Unique Length-3 Palindromic Subsequences</a></h2><h3>Medium</h3><hr><div style="border-color: rgb(91, 119, 134) !important;"><p style="border-color: rgb(91, 119, 134) !important;">Given a string <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">s</code>, return <em style="color: rgb(234, 238, 241) !important; border-color: rgb(91, 119, 134) !important;">the number of <strong style="border-color: rgb(91, 119, 134) !important;">unique palindromes of length three</strong> that are a <strong style="border-color: rgb(91, 119, 134) !important;">subsequence</strong> of </em><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">s</code>.</p>
+<h2><a href="https://leetcode.com/problems/unique-length-3-palindromic-subsequences/?envType=daily-question&envId=2025-11-13">1930. Unique Length-3 Palindromic Subsequences</a></h2><h3>Medium</h3><hr><p>Given a string <code>s</code>, return <em>the number of <strong>unique palindromes of length three</strong> that are a <strong>subsequence</strong> of </em><code>s</code>.</p>
 
-<p style="border-color: rgb(91, 119, 134) !important;">Note that even if there are multiple ways to obtain the same subsequence, it is still only counted <strong style="border-color: rgb(91, 119, 134) !important;">once</strong>.</p>
+<p>Note that even if there are multiple ways to obtain the same subsequence, it is still only counted <strong>once</strong>.</p>
 
-<p style="border-color: rgb(91, 119, 134) !important;">A <strong style="border-color: rgb(91, 119, 134) !important;">palindrome</strong> is a string that reads the same forwards and backwards.</p>
+<p>A <strong>palindrome</strong> is a string that reads the same forwards and backwards.</p>
 
-<p style="border-color: rgb(91, 119, 134) !important;">A <strong style="border-color: rgb(91, 119, 134) !important;">subsequence</strong> of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.</p>
+<p>A <strong>subsequence</strong> of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.</p>
 
-<ul style="border-color: rgb(91, 119, 134) !important;">
-	<li style="border-color: rgb(91, 119, 134) !important;">For example, <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">"ace"</code> is a subsequence of <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">"<u style="border-color: rgb(83, 109, 121) !important;">a</u>b<u style="border-color: rgb(83, 109, 121) !important;">c</u>d<u style="border-color: rgb(83, 109, 121) !important;">e</u>"</code>.</li>
+<ul>
+	<li>For example, <code>&quot;ace&quot;</code> is a subsequence of <code>&quot;<u>a</u>b<u>c</u>d<u>e</u>&quot;</code>.</li>
 </ul>
 
-<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
-<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 1:</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> s = "aabca"
-<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> 3
-<strong style="border-color: rgb(83, 109, 122) !important;">Explanation:</strong> The 3 palindromic subsequences of length 3 are:
-- "aba" (subsequence of "<u style="border-color: rgb(83, 109, 122) !important;">a</u>a<u style="border-color: rgb(83, 109, 122) !important;">b</u>c<u style="border-color: rgb(83, 109, 122) !important;">a</u>")
-- "aaa" (subsequence of "<u style="border-color: rgb(83, 109, 122) !important;">aa</u>bc<u style="border-color: rgb(83, 109, 122) !important;">a</u>")
-- "aca" (subsequence of "<u style="border-color: rgb(83, 109, 122) !important;">a</u>ab<u style="border-color: rgb(83, 109, 122) !important;">ca</u>")
+<pre>
+<strong>Input:</strong> s = &quot;aabca&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The 3 palindromic subsequences of length 3 are:
+- &quot;aba&quot; (subsequence of &quot;<u>a</u>a<u>b</u>c<u>a</u>&quot;)
+- &quot;aaa&quot; (subsequence of &quot;<u>aa</u>bc<u>a</u>&quot;)
+- &quot;aca&quot; (subsequence of &quot;<u>a</u>ab<u>ca</u>&quot;)
 </pre>
 
-<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> s = "adc"
-<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> 0
-<strong style="border-color: rgb(83, 109, 122) !important;">Explanation:</strong> There are no palindromic subsequences of length 3 in "adc".
+<pre>
+<strong>Input:</strong> s = &quot;adc&quot;
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There are no palindromic subsequences of length 3 in &quot;adc&quot;.
 </pre>
 
-<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> s = "bbcbaba"
-<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> 4
-<strong style="border-color: rgb(83, 109, 122) !important;">Explanation:</strong> The 4 palindromic subsequences of length 3 are:
-- "bbb" (subsequence of "<u style="border-color: rgb(83, 109, 122) !important;">bb</u>c<u style="border-color: rgb(83, 109, 122) !important;">b</u>aba")
-- "bcb" (subsequence of "<u style="border-color: rgb(83, 109, 122) !important;">b</u>b<u style="border-color: rgb(83, 109, 122) !important;">cb</u>aba")
-- "bab" (subsequence of "<u style="border-color: rgb(83, 109, 122) !important;">b</u>bcb<u style="border-color: rgb(83, 109, 122) !important;">ab</u>a")
-- "aba" (subsequence of "bbcb<u style="border-color: rgb(83, 109, 122) !important;">aba</u>")
+<pre>
+<strong>Input:</strong> s = &quot;bbcbaba&quot;
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The 4 palindromic subsequences of length 3 are:
+- &quot;bbb&quot; (subsequence of &quot;<u>bb</u>c<u>b</u>aba&quot;)
+- &quot;bcb&quot; (subsequence of &quot;<u>b</u>b<u>cb</u>aba&quot;)
+- &quot;bab&quot; (subsequence of &quot;<u>b</u>bcb<u>ab</u>a&quot;)
+- &quot;aba&quot; (subsequence of &quot;bbcb<u>aba</u>&quot;)
 </pre>
 
-<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
-<p style="border-color: rgb(91, 119, 134) !important;"><strong style="border-color: rgb(91, 119, 134) !important;">Constraints:</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<ul style="border-color: rgb(91, 119, 134) !important;">
-	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">3 &lt;= s.length &lt;= 10<sup style="border-color: rgb(83, 109, 121) !important;">5</sup></code></li>
-	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">s</code> consists of only lowercase English letters.</li>
+<ul>
+	<li><code>3 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>s</code> consists of only lowercase English letters.</li>
 </ul>
-</div>
