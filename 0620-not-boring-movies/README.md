@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/not-boring-movies/?envType=study-plan-v2&envId=top-sql-50">620. Not Boring Movies</a></h2><h3>Easy</h3><hr><p>Table: <code>Cinema</code></p>
+<h2><a href="https://leetcode.com/problems/not-boring-movies/?envType=problem-list-v2&envId=db-db1-sql-i">620. Not Boring Movies</a></h2><h3>Easy</h3><hr><p>Table: <code>Cinema</code></p>
 
 <pre>
 +----------------+----------+
