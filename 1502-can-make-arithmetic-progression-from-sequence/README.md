@@ -1,18 +1,20 @@
-<h2><a href="https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/">1502. Can Make Arithmetic Progression From Sequence</a></h2><h3>Easy</h3><hr><div><p>A sequence of numbers is called an <strong>arithmetic progression</strong> if the difference between any two consecutive elements is the same.</p>
+<h2><a href="https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/?envType=problem-list-v2&envId=maths-m1-arithmetic-basic-reasoning">1502. Can Make Arithmetic Progression From Sequence</a></h2><h3>Easy</h3><hr><p>A sequence of numbers is called an <strong>arithmetic progression</strong> if the difference between any two consecutive elements is the same.</p>
 
-<p>Given an array of numbers <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">arr</code>, return <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">true</code> <em style="color: rgb(234, 238, 241) !important;">if the array can be rearranged to form an <strong>arithmetic progression</strong>. Otherwise, return</em> <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">false</code>.</p>
+<p>Given an array of numbers <code>arr</code>, return <code>true</code> <em>if the array can be rearranged to form an <strong>arithmetic progression</strong>. Otherwise, return</em> <code>false</code>.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important;"><strong>Input:</strong> arr = [3,5,1]
+<pre>
+<strong>Input:</strong> arr = [3,5,1]
 <strong>Output:</strong> true
 <strong>Explanation: </strong>We can reorder the elements as [1,3,5] or [5,3,1] with differences 2 and -2 respectively, between each consecutive elements.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important;"><strong>Input:</strong> arr = [1,2,4]
+<pre>
+<strong>Input:</strong> arr = [1,2,4]
 <strong>Output:</strong> false
 <strong>Explanation: </strong>There is no way to reorder the elements to obtain an arithmetic progression.
 </pre>
@@ -21,7 +23,6 @@
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">2 &lt;= arr.length &lt;= 1000</code></li>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">-10<sup>6</sup> &lt;= arr[i] &lt;= 10<sup>6</sup></code></li>
+	<li><code>2 &lt;= arr.length &lt;= 1000</code></li>
+	<li><code>-10<sup>6</sup> &lt;= arr[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
-</div>
