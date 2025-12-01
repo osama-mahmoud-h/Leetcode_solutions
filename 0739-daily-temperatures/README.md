@@ -1,21 +1,20 @@
-<h2><a href="https://leetcode.com/problems/daily-temperatures/">739. Daily Temperatures</a></h2><h3>Medium</h3><hr><div style="border-color: rgb(91, 119, 134) !important;"><p style="border-color: rgb(91, 119, 134) !important;">Given an array of integers <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">temperatures</code> represents the daily temperatures, return <em style="color: rgb(234, 238, 241) !important; border-color: rgb(91, 119, 134) !important;">an array</em> <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">answer</code> <em style="color: rgb(234, 238, 241) !important; border-color: rgb(91, 119, 134) !important;">such that</em> <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">answer[i]</code> <em style="color: rgb(234, 238, 241) !important; border-color: rgb(91, 119, 134) !important;">is the number of days you have to wait after the</em> <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">i<sup style="border-color: rgb(83, 109, 121) !important;">th</sup></code> <em style="color: rgb(234, 238, 241) !important; border-color: rgb(91, 119, 134) !important;">day to get a warmer temperature</em>. If there is no future day for which this is possible, keep <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">answer[i] == 0</code> instead.</p>
+<h2><a href="https://leetcode.com/problems/daily-temperatures/?envType=problem-list-v2&envId=dsa-linear-shoal-monotonic-stack">739. Daily Temperatures</a></h2><h3>Medium</h3><hr><p>Given an array of integers <code>temperatures</code> represents the daily temperatures, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is the number of days you have to wait after the</em> <code>i<sup>th</sup></code> <em>day to get a warmer temperature</em>. If there is no future day for which this is possible, keep <code>answer[i] == 0</code> instead.</p>
 
-<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
-<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 1:</strong></p>
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> temperatures = [73,74,75,71,69,72,76,73]
-<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> [1,1,4,2,1,1,0,0]
-</pre><p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 2:</strong></p>
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> temperatures = [30,40,50,60]
-<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> [1,1,1,0]
-</pre><p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 3:</strong></p>
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> temperatures = [30,60,90]
-<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> [1,1,0]
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> temperatures = [73,74,75,71,69,72,76,73]
+<strong>Output:</strong> [1,1,4,2,1,1,0,0]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> temperatures = [30,40,50,60]
+<strong>Output:</strong> [1,1,1,0]
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> temperatures = [30,60,90]
+<strong>Output:</strong> [1,1,0]
 </pre>
-<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
-<p style="border-color: rgb(91, 119, 134) !important;"><strong style="border-color: rgb(91, 119, 134) !important;">Constraints:</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<ul style="border-color: rgb(91, 119, 134) !important;">
-	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">1 &lt;=&nbsp;temperatures.length &lt;= 10<sup style="border-color: rgb(83, 109, 121) !important;">5</sup></code></li>
-	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">30 &lt;=&nbsp;temperatures[i] &lt;= 100</code></li>
+<ul>
+	<li><code>1 &lt;=&nbsp;temperatures.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>30 &lt;=&nbsp;temperatures[i] &lt;= 100</code></li>
 </ul>
-</div>
