@@ -1,24 +1,25 @@
-<h2><a href="https://leetcode.com/problems/lfu-cache/">460. LFU Cache</a></h2><h3>Hard</h3><hr><div><p>Design and implement a data structure for a <a href="https://en.wikipedia.org/wiki/Least_frequently_used" target="_blank" style="transition-property: -border-bottom-color !important; --link-color:rgb(161, 178, 190) !important; --link-color-hover:rgb(180, 193, 203) !important; --link-color-active:rgb(158, 175, 188) !important; --visited-color:rgb(160, 117, 234) !important; --visited-color-hover:rgb(179, 144, 238) !important; --visited-color-active:rgb(157, 113, 234) !important; border-top-color: rgb(92, 119, 133) !important; border-right-color: rgb(92, 119, 133) !important; border-left-color: rgb(92, 119, 133) !important;">Least Frequently Used (LFU)</a> cache.</p>
+<h2><a href="https://leetcode.com/problems/lfu-cache/?envType=problem-list-v2&envId=ssd-ssd1-cache-system-design">460. LFU Cache</a></h2><h3>Hard</h3><hr><p>Design and implement a data structure for a <a href="https://en.wikipedia.org/wiki/Least_frequently_used" target="_blank">Least Frequently Used (LFU)</a> cache.</p>
 
-<p>Implement the <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">LFUCache</code> class:</p>
+<p>Implement the <code>LFUCache</code> class:</p>
 
 <ul>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">LFUCache(int capacity)</code> Initializes the object with the <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">capacity</code> of the data structure.</li>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">int get(int key)</code> Gets the value of the <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">key</code> if the <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">key</code> exists in the cache. Otherwise, returns <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">-1</code>.</li>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">void put(int key, int value)</code> Update the value of the <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">key</code> if present, or inserts the <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">key</code> if not already present. When the cache reaches its <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">capacity</code>, it should invalidate and remove the <strong>least frequently used</strong> key before inserting a new item. For this problem, when there is a <strong>tie</strong> (i.e., two or more keys with the same frequency), the <strong>least recently used</strong> <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">key</code> would be invalidated.</li>
+	<li><code>LFUCache(int capacity)</code> Initializes the object with the <code>capacity</code> of the data structure.</li>
+	<li><code>int get(int key)</code> Gets the value of the <code>key</code> if the <code>key</code> exists in the cache. Otherwise, returns <code>-1</code>.</li>
+	<li><code>void put(int key, int value)</code> Update the value of the <code>key</code> if present, or inserts the <code>key</code> if not already present. When the cache reaches its <code>capacity</code>, it should invalidate and remove the <strong>least frequently used</strong> key before inserting a new item. For this problem, when there is a <strong>tie</strong> (i.e., two or more keys with the same frequency), the <strong>least recently used</strong> <code>key</code> would be invalidated.</li>
 </ul>
 
 <p>To determine the least frequently used key, a <strong>use counter</strong> is maintained for each key in the cache. The key with the smallest <strong>use counter</strong> is the least frequently used key.</p>
 
-<p>When a key is first inserted into the cache, its <strong>use counter</strong> is set to <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">1</code> (due to the <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">put</code> operation). The <strong>use counter</strong> for a key in the cache is incremented either a <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">get</code> or <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">put</code> operation is called on it.</p>
+<p>When a key is first inserted into the cache, its <strong>use counter</strong> is set to <code>1</code> (due to the <code>put</code> operation). The <strong>use counter</strong> for a key in the cache is incremented either a <code>get</code> or <code>put</code> operation is called on it.</p>
 
-<p>The functions&nbsp;<code data-stringify-type="code" style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">get</code>&nbsp;and&nbsp;<code data-stringify-type="code" style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">put</code>&nbsp;must each run in <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">O(1)</code> average time complexity.</p>
+<p>The functions&nbsp;<code data-stringify-type="code">get</code>&nbsp;and&nbsp;<code data-stringify-type="code">put</code>&nbsp;must each run in <code>O(1)</code> average time complexity.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 206) !important;"><strong>Input</strong>
-["LFUCache", "put", "put", "get", "put", "get", "get", "put", "get", "get", "get"]
+<pre>
+<strong>Input</strong>
+[&quot;LFUCache&quot;, &quot;put&quot;, &quot;put&quot;, &quot;get&quot;, &quot;put&quot;, &quot;get&quot;, &quot;get&quot;, &quot;put&quot;, &quot;get&quot;, &quot;get&quot;, &quot;get&quot;]
 [[2], [1, 1], [2, 2], [1], [3, 3], [2], [3], [4, 4], [1], [3], [4]]
 <strong>Output</strong>
 [null, null, null, 1, null, -1, 3, null, -1, 3, 4]
@@ -49,11 +50,11 @@ lfu.get(4);      // return 4
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">0 &lt;= capacity&nbsp;&lt;= 10<sup>4</sup></code></li>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">0 &lt;= key &lt;= 10<sup>5</sup></code></li>
-	<li><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">0 &lt;= value &lt;= 10<sup>9</sup></code></li>
-	<li>At most <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">2 * 10<sup>5</sup></code>&nbsp;calls will be made to <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">get</code> and <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important;">put</code>.</li>
+	<li><code>1 &lt;= capacity&nbsp;&lt;= 10<sup>4</sup></code></li>
+	<li><code>0 &lt;= key &lt;= 10<sup>5</sup></code></li>
+	<li><code>0 &lt;= value &lt;= 10<sup>9</sup></code></li>
+	<li>At most <code>2 * 10<sup>5</sup></code>&nbsp;calls will be made to <code>get</code> and <code>put</code>.</li>
 </ul>
 
 <p>&nbsp;</p>
-<span style="display: none;">&nbsp;</span></div>
+<span style="display: none;">&nbsp;</span>
