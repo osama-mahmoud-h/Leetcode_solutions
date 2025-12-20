@@ -1,13 +1,22 @@
 class Solution {
+private:
+    bool is_sorted(vector<string>& strs, int idx){
+        int rows = strs.size();
+        for (int i = 0; i<rows-1; i++){
+            if(strs[i][idx] > strs[i+1][idx])
+                return 0;
+        }
+        return 1;
+    } 
 public:
-    int minDeletionSize(vector<string>& A) {
+    int minDeletionSize(vector<string>& strs) {
         int ans = 0;
-        for (int c = 0; c < A[0].length(); ++c)
-            for (int r = 0; r < A.size() - 1; ++r)
-                if (A[r][c] > A[r+1][c]) {
-                    ans++;
-                    break;
-                }
+        int cols = strs[0].length();
+         for (int i = 0; i<cols; i++){
+            if(!is_sorted(strs, i))
+                ans++;
+         }
 
-        return ans;    }
+        return ans;
+    }
 };
