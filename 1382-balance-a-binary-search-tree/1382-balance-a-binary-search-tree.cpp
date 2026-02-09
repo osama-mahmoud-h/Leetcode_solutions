@@ -11,34 +11,29 @@
  */
 class Solution {
 private:
-    vector<TreeNode*>data;
+    vector<TreeNode*>nodes;
     void inorder_dfs(TreeNode* rt){
         if(!rt)
             return;
         inorder_dfs(rt->left);
-        
-        data.push_back(rt);
-        
+        nodes.push_back(rt);
         inorder_dfs(rt->right);
     }
-    TreeNode* construct_bst(vector<TreeNode*>& data, int left, int right){
+    TreeNode* build_bst_balanced(int left, int right){
         if(left > right)
             return nullptr;
         
-        int mid = (left+right) / 2;
-        
-        TreeNode* rt = data[mid];
-        
-        rt->left = construct_bst(data, left, mid-1);
-        rt->right = construct_bst(data, mid+1, right);
-        
+        int mid = (left + right) / 2 ;
+        TreeNode* rt = nodes[mid];
+
+        rt->left = build_bst_balanced(left, mid - 1);
+        rt->right = build_bst_balanced(mid+1, right);
+
         return rt;
     }
 public:
     TreeNode* balanceBST(TreeNode* root) {
-        TreeNode* new_root = nullptr;
         inorder_dfs(root);
-        
-        return  construct_bst(data, 0 , data.size()-1);
+        return build_bst_balanced(0, nodes.size()-1);
     }
 };
