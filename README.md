@@ -14,6 +14,7 @@ my solutions on leetcode site
 | [1980-find-unique-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [2615-sum-of-distances](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2615-sum-of-distances/) | Medium |
 | [2751-robot-collisions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2751-robot-collisions/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
@@ -56,6 +57,7 @@ my solutions on leetcode site
 | [0001-two-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0001-two-sum/) | Easy |
 | [0202-happy-number](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0202-happy-number/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2615-sum-of-distances](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2615-sum-of-distances/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -67,6 +69,7 @@ my solutions on leetcode site
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2615-sum-of-distances](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2615-sum-of-distances/) | Medium |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 ## Bit Manipulation
