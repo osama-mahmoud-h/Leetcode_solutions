@@ -41,6 +41,7 @@ my solutions on leetcode site
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [2833-furthest-point-from-origin](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -113,4 +114,8 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2833-furthest-point-from-origin](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
 <!---LeetCode Topics End-->
