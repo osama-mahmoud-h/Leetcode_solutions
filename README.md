@@ -8,6 +8,7 @@ my solutions on leetcode site
 | ------- | ------- |
 | [0001-two-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0001-two-sum/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
+| [1559-detect-cycles-in-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1848-minimum-distance-to-the-target-element](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
@@ -29,6 +30,7 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
+| [1559-detect-cycles-in-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
@@ -118,4 +120,16 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2833-furthest-point-from-origin](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1559-detect-cycles-in-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1559-detect-cycles-in-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1559-detect-cycles-in-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 <!---LeetCode Topics End-->
