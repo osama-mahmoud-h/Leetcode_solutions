@@ -22,6 +22,7 @@ my solutions on leetcode site
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
+| [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -38,6 +39,7 @@ my solutions on leetcode site
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
+| [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -73,6 +75,7 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
+| [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
