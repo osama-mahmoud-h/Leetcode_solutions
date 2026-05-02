@@ -74,6 +74,7 @@ my solutions on leetcode site
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0788-rotated-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0788-rotated-digits/) | Medium |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Prefix Sum
@@ -90,6 +91,7 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0202-happy-number](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0202-happy-number/) | Easy |
+| [0788-rotated-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0788-rotated-digits/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
