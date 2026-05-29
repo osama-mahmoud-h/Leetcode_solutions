@@ -28,6 +28,7 @@ my solutions on leetcode site
 | [2751-robot-collisions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2751-robot-collisions/) | Hard |
 | [2784-check-if-array-is-good](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2784-check-if-array-is-good/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
@@ -113,6 +114,7 @@ my solutions on leetcode site
 | [0788-rotated-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0788-rotated-digits/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
