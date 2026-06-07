@@ -22,6 +22,7 @@ my solutions on leetcode site
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2196-create-binary-tree-from-descriptions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2540-minimum-common-value](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
@@ -83,6 +84,7 @@ my solutions on leetcode site
 | [0001-two-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0001-two-sum/) | Easy |
 | [0202-happy-number](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0202-happy-number/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2540-minimum-common-value](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2615-sum-of-distances/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2784-check-if-array-is-good/) | Easy |
@@ -186,4 +188,12 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0061-rotate-list/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 <!---LeetCode Topics End-->
