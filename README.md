@@ -70,6 +70,7 @@ my solutions on leetcode site
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -187,6 +188,7 @@ my solutions on leetcode site
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0061-rotate-list](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0061-rotate-list/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
