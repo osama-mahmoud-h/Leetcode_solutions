@@ -34,6 +34,7 @@ my solutions on leetcode site
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
+| [3838-weighted-word-mapping](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -67,6 +68,7 @@ my solutions on leetcode site
 | [2833-furthest-point-from-origin](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [3120-count-the-number-of-special-characters-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
+| [3838-weighted-word-mapping](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -79,6 +81,7 @@ my solutions on leetcode site
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [2553-separate-the-digits-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2751-robot-collisions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2751-robot-collisions/) | Hard |
+| [3838-weighted-word-mapping](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
