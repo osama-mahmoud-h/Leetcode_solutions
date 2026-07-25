@@ -135,6 +135,7 @@ my solutions on leetcode site
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
+| [3536-maximum-product-of-two-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
@@ -179,6 +180,7 @@ my solutions on leetcode site
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2751-robot-collisions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2751-robot-collisions/) | Hard |
 | [2784-check-if-array-is-good](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2784-check-if-array-is-good/) | Easy |
+| [3536-maximum-product-of-two-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
