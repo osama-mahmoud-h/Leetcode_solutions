@@ -11,6 +11,7 @@ my solutions on leetcode site
 | [0048-rotate-image](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0048-rotate-image/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1260-shift-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -130,6 +131,7 @@ my solutions on leetcode site
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0048-rotate-image/) | Medium |
 | [0202-happy-number](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0202-happy-number/) | Easy |
+| [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0788-rotated-digits/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
@@ -175,6 +177,7 @@ my solutions on leetcode site
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
