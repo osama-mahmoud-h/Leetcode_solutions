@@ -46,6 +46,7 @@ my solutions on leetcode site
 | [2078-two-furthest-houses-with-different-colors](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -75,6 +76,7 @@ my solutions on leetcode site
 | [2452-words-within-two-edits-of-dictionary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2833-furthest-point-from-origin](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
@@ -108,6 +110,7 @@ my solutions on leetcode site
 | [2540-minimum-common-value](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2615-sum-of-distances/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2784-check-if-array-is-good/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 ## Backtracking
@@ -190,6 +193,7 @@ my solutions on leetcode site
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2751-robot-collisions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2751-robot-collisions/) | Hard |
 | [2784-check-if-array-is-good](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2784-check-if-array-is-good/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3536-maximum-product-of-two-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 ## Trie
@@ -201,6 +205,7 @@ my solutions on leetcode site
 | ------- | ------- |
 | [1189-maximum-number-of-balloons](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
