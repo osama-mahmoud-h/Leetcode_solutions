@@ -12,6 +12,7 @@ my solutions on leetcode site
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+| [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
 | [1260-shift-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -121,6 +122,7 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0788-rotated-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0788-rotated-digits/) | Medium |
+| [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Prefix Sum
@@ -140,6 +142,7 @@ my solutions on leetcode site
 | [0202-happy-number](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0202-happy-number/) | Easy |
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0788-rotated-digits/) | Medium |
+| [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
@@ -263,4 +266,8 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
 <!---LeetCode Topics End-->
