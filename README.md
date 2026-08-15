@@ -40,6 +40,7 @@ my solutions on leetcode site
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 | [3838-weighted-word-mapping](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Greedy
@@ -139,6 +140,7 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1009-complement-of-base-10-integer](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1009-complement-of-base-10-integer/) | Easy |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
