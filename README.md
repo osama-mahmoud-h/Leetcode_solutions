@@ -15,6 +15,7 @@ my solutions on leetcode site
 | [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
 | [1260-shift-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
+| [1386-cinema-seat-allocation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
@@ -46,6 +47,7 @@ my solutions on leetcode site
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1386-cinema-seat-allocation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
@@ -109,6 +111,7 @@ my solutions on leetcode site
 | [1189-maximum-number-of-balloons](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
+| [1386-cinema-seat-allocation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2540-minimum-common-value](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2540-minimum-common-value/) | Easy |
@@ -140,6 +143,7 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1009-complement-of-base-10-integer](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1009-complement-of-base-10-integer/) | Easy |
+| [1386-cinema-seat-allocation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Math
 | Problem Name | Difficulty |
