@@ -181,6 +181,7 @@ my solutions on leetcode site
 | [3658-gcd-of-odd-and-even-sums](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
+| [3871-count-commas-in-range-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3871-count-commas-in-range-ii/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3876-construct-uniform-parity-array-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 ## Binary Search
