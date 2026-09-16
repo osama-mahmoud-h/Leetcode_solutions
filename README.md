@@ -151,11 +151,13 @@ my solutions on leetcode site
 | [0115-distinct-subsequences](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0115-distinct-subsequences/) | Hard |
 | [0788-rotated-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0788-rotated-digits/) | Medium |
 | [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [2615-sum-of-distances](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2615-sum-of-distances/) | Medium |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
@@ -177,6 +179,7 @@ my solutions on leetcode site
 | [0836-rectangle-overlap](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0836-rectangle-overlap/) | Easy |
 | [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -322,4 +325,8 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0836-rectangle-overlap/) | Easy |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 <!---LeetCode Topics End-->
