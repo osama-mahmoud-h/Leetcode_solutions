@@ -1,5 +1,4 @@
 -- Write your PostgreSQL query statement below
-SELECT w1.id 
-FROM Weather w1 
-JOIN Weather w2 on w1.temperature > w2.temperature 
-     AND (w2.recordDate = (w1.recordDate - INTERVAL '1 day'));
+select id 
+from Weather w1
+where w1.temperature > (select max(w2.temperature) from Weather w2 where w2.recordDate = w1.recordDate - interval '1 day');
