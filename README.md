@@ -342,4 +342,5 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0197-rising-temperature](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0197-rising-temperature/) | Easy |
+| [1193-monthly-transactions-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1193-monthly-transactions-i/) | Medium |
 <!---LeetCode Topics End-->
