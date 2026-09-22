@@ -3,8 +3,8 @@ SELECT
     sum(o.unit) as unit
 FROM Products p JOIN Orders o on p.product_id = o.product_id
 
-WHERE TO_CHAR(o.order_date , 'YYYY-MM') = '2020-02'
---WHERE o.order_date >= '2020-02-01' AND o.order_date < '2020-03-01'
+--WHERE TO_CHAR(o.order_date , 'YYYY-MM') = '2020-02'
+WHERE o.order_date >= '2020-02-01' AND o.order_date < '2020-03-01'
 
 GROUP BY p.product_name
 HAVING sum(o.unit) >=100;
