@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/monthly-transactions-i/?envType=study-plan-v2&envId=top-sql-50">1193. Monthly Transactions I</a></h2><h3>Medium</h3><hr><p>Table: <code>Transactions</code></p>
+<h2><a href="https://leetcode.com/problems/monthly-transactions-i">1193. Monthly Transactions I</a></h2><h3>Medium</h3><hr><p>Table: <code>Transactions</code></p>
 
 <pre>
 +---------------+---------+
