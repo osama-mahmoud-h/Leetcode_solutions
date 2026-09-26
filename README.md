@@ -14,6 +14,7 @@ my solutions on leetcode site
 | [0128-longest-consecutive-sequence](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [0215-kth-largest-element-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0835-image-overlap](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0835-image-overlap/) | Medium |
 | [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
@@ -224,6 +225,7 @@ my solutions on leetcode site
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Two Pointers
@@ -254,6 +256,7 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0049-group-anagrams/) | Medium |
+| [0215-kth-largest-element-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0242-valid-anagram](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
@@ -361,4 +364,12 @@ my solutions on leetcode site
 | [0197-rising-temperature](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0197-rising-temperature/) | Easy |
 | [1193-monthly-transactions-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1193-monthly-transactions-i/) | Medium |
 | [1327-list-the-products-ordered-in-a-period](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1327-list-the-products-ordered-in-a-period/) | Easy |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 <!---LeetCode Topics End-->
