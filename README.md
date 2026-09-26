@@ -86,6 +86,7 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0115-distinct-subsequences](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0115-distinct-subsequences/) | Hard |
+| [0242-valid-anagram](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0796-rotate-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0796-rotate-string/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1189-maximum-number-of-balloons/) | Easy |
@@ -128,6 +129,7 @@ my solutions on leetcode site
 | ------- | ------- |
 | [0001-two-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0001-two-sum/) | Easy |
 | [0202-happy-number](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0202-happy-number/) | Easy |
+| [0242-valid-anagram](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0242-valid-anagram/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
@@ -242,6 +244,7 @@ my solutions on leetcode site
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0242-valid-anagram](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
