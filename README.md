@@ -100,6 +100,7 @@ my solutions on leetcode site
 | [1189-maximum-number-of-balloons](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -252,6 +253,7 @@ my solutions on leetcode site
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2751-robot-collisions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2751-robot-collisions/) | Hard |
 ## Sorting
@@ -375,4 +377,8 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 <!---LeetCode Topics End-->
