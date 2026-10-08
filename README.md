@@ -105,6 +105,7 @@ my solutions on leetcode site
 | [0796-rotate-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0796-rotate-string/) | Easy |
 | [0856-score-of-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
@@ -270,6 +271,7 @@ my solutions on leetcode site
 | [0678-valid-parenthesis-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2751-robot-collisions](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2751-robot-collisions/) | Hard |
@@ -403,5 +405,6 @@ my solutions on leetcode site
 | [0678-valid-parenthesis-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 <!---LeetCode Topics End-->
