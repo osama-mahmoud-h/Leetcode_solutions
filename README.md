@@ -54,6 +54,7 @@ my solutions on leetcode site
 | [3643-flip-square-submatrix-vertically](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3718-smallest-missing-multiple-of-k](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3718-smallest-missing-multiple-of-k/) | Easy |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 | [3838-weighted-word-mapping](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3838-weighted-word-mapping/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
@@ -75,6 +76,7 @@ my solutions on leetcode site
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3720-lexicographically-smallest-permutation-greater-than-target/) | Medium |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -298,6 +300,7 @@ my solutions on leetcode site
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3536-maximum-product-of-two-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3536-maximum-product-of-two-digits/) | Easy |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
