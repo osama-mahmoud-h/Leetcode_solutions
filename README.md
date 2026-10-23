@@ -132,6 +132,7 @@ my solutions on leetcode site
 | [3612-process-string-with-special-operations-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3720-lexicographically-smallest-permutation-greater-than-target/) | Medium |
 | [3838-weighted-word-mapping](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3838-weighted-word-mapping/) | Easy |
+| [3863-minimum-operations-to-sort-a-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3863-minimum-operations-to-sort-a-string/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
