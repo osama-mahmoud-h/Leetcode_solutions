@@ -120,6 +120,7 @@ my solutions on leetcode site
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2409-count-days-spent-together](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2409-count-days-spent-together/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2833-furthest-point-from-origin](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2904-shortest-and-lexicographically-smallest-beautiful-string/) | Medium |
@@ -223,6 +224,7 @@ my solutions on leetcode site
 | [1401-circle-and-rectangle-overlapping](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
+| [2409-count-days-spent-together](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2409-count-days-spent-together/) | Easy |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
