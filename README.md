@@ -18,6 +18,7 @@ my solutions on leetcode site
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0835-image-overlap](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0835-image-overlap/) | Medium |
 | [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
+| [1254-number-of-closed-islands](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1260-shift-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
@@ -84,6 +85,7 @@ my solutions on leetcode site
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0048-rotate-image/) | Medium |
 | [0835-image-overlap](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0835-image-overlap/) | Medium |
+| [1254-number-of-closed-islands](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1260-shift-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
@@ -324,6 +326,7 @@ my solutions on leetcode site
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1254-number-of-closed-islands](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
@@ -331,6 +334,7 @@ my solutions on leetcode site
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1254-number-of-closed-islands](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
@@ -339,6 +343,7 @@ my solutions on leetcode site
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [1254-number-of-closed-islands](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
