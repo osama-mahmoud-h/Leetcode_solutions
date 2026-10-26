@@ -54,6 +54,7 @@ my solutions on leetcode site
 | [3546-equal-sum-grid-partition-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3718-smallest-missing-multiple-of-k](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3718-smallest-missing-multiple-of-k/) | Easy |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
@@ -213,6 +214,7 @@ my solutions on leetcode site
 | ------- | ------- |
 | [1009-complement-of-base-10-integer](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Math
 | Problem Name | Difficulty |
