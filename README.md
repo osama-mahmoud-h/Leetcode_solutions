@@ -63,6 +63,7 @@ my solutions on leetcode site
 | [3838-weighted-word-mapping](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3838-weighted-word-mapping/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3876-construct-uniform-parity-array-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 | [3903-smallest-stable-index-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3904-smallest-stable-index-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3904-smallest-stable-index-ii/) | Medium |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
@@ -100,6 +101,7 @@ my solutions on leetcode site
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -202,6 +204,7 @@ my solutions on leetcode site
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -218,6 +221,7 @@ my solutions on leetcode site
 | [1386-cinema-seat-allocation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
