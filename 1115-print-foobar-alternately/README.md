@@ -1,49 +1,51 @@
-<h2><a href="https://leetcode.com/problems/print-foobar-alternately/">1115. Print FooBar Alternately</a></h2><h3>Medium</h3><hr><div style="border-color: rgb(91, 119, 134) !important;"><p style="border-color: rgb(91, 119, 134) !important;">Suppose you are given the following code:</p>
+<h2><a href="https://leetcode.com/problems/print-foobar-alternately">1115. Print FooBar Alternately</a></h2><h3>Medium</h3><hr><p>Suppose you are given the following code:</p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;">class FooBar {
+<pre>
+class FooBar {
   public void foo() {
     for (int i = 0; i &lt; n; i++) {
-      print("foo");
+      print(&quot;foo&quot;);
     }
   }
 
   public void bar() {
     for (int i = 0; i &lt; n; i++) {
-      print("bar");
+      print(&quot;bar&quot;);
     }
   }
 }
 </pre>
 
-<p style="border-color: rgb(91, 119, 134) !important;">The same instance of <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">FooBar</code> will be passed to two different threads:</p>
+<p>The same instance of <code>FooBar</code> will be passed to two different threads:</p>
 
-<ul style="border-color: rgb(91, 119, 134) !important;">
-	<li style="border-color: rgb(91, 119, 134) !important;">thread <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">A</code> will call <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">foo()</code>, while</li>
-	<li style="border-color: rgb(91, 119, 134) !important;">thread <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">B</code> will call <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">bar()</code>.</li>
+<ul>
+	<li>thread <code>A</code> will call <code>foo()</code>, while</li>
+	<li>thread <code>B</code> will call <code>bar()</code>.</li>
 </ul>
 
-<p style="border-color: rgb(91, 119, 134) !important;">Modify the given program to output <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">"foobar"</code> <code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">n</code> times.</p>
+<p>Modify the given program to output <code>&quot;foobar&quot;</code> <code>n</code> times.</p>
 
-<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
-<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 1:</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> n = 1
-<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> "foobar"
-<strong style="border-color: rgb(83, 109, 122) !important;">Explanation:</strong> There are two threads being fired asynchronously. One of them calls foo(), while the other calls bar().
-"foobar" is being output 1 time.
+<pre>
+<strong>Input:</strong> n = 1
+<strong>Output:</strong> &quot;foobar&quot;
+<strong>Explanation:</strong> There are two threads being fired asynchronously. One of them calls foo(), while the other calls bar().
+&quot;foobar&quot; is being output 1 time.
 </pre>
 
-<p style="border-color: rgb(91, 119, 134) !important;"><strong class="example" style="border-color: rgb(91, 119, 134) !important;">Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre style="background-color: rgb(20, 28, 32) !important; color: rgb(182, 198, 206) !important; border-color: rgb(83, 109, 122) !important;"><strong style="border-color: rgb(83, 109, 122) !important;">Input:</strong> n = 2
-<strong style="border-color: rgb(83, 109, 122) !important;">Output:</strong> "foobarfoobar"
-<strong style="border-color: rgb(83, 109, 122) !important;">Explanation:</strong> "foobar" is being output 2 times.
+<pre>
+<strong>Input:</strong> n = 2
+<strong>Output:</strong> &quot;foobarfoobar&quot;
+<strong>Explanation:</strong> &quot;foobar&quot; is being output 2 times.
 </pre>
 
-<p style="border-color: rgb(91, 119, 134) !important;">&nbsp;</p>
-<p style="border-color: rgb(91, 119, 134) !important;"><strong style="border-color: rgb(91, 119, 134) !important;">Constraints:</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<ul style="border-color: rgb(91, 119, 134) !important;">
-	<li style="border-color: rgb(91, 119, 134) !important;"><code style="background-color: rgb(20, 28, 32) !important; color: rgb(183, 198, 205) !important; border-color: rgb(83, 109, 121) !important;">1 &lt;= n &lt;= 1000</code></li>
+<ul>
+	<li><code>1 &lt;= n &lt;= 1000</code></li>
 </ul>
-</div>
