@@ -1,47 +1,41 @@
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
+import java.util.concurrent.BrokenBarrierException;
+import java.util.concurrent.CyclicBarrier;
 
 class FooBar {
     private final int n;
-    private final CompletableFuture<Void>[] allowBar;
-    private final CompletableFuture<Void>[] allowFoo;
+    private final CyclicBarrier barrier = new CyclicBarrier(2);
+    private volatile boolean fooTurn = true;
 
-    @SuppressWarnings("unchecked")
     public FooBar(int n) {
         this.n = n;
-        this.allowBar = new CompletableFuture[n];
-        this.allowFoo = new CompletableFuture[n];
-        for (int i = 0; i < n; i++) {
-            allowBar[i] = new CompletableFuture<>();
-            allowFoo[i] = new CompletableFuture<>();
-        }
     }
 
     public void foo(Runnable printFoo) throws InterruptedException {
         for (int i = 0; i < n; i++) {
-            if (i > 0) {
-                try {
-                    allowFoo[i - 1].get();
-                } catch (ExecutionException e) {
-                    throw new RuntimeException(e);
-                }
+            while (!fooTurn) {
+                Thread.yield();
             }
             // printFoo.run() outputs "foo". Do not change or remove this line.
             printFoo.run();
-            allowBar[i].complete(null);
+            fooTurn = false;
+            try {
+                barrier.await();
+            } catch (BrokenBarrierException e) {
+                Thread.currentThread().interrupt();
+            }
         }
     }
 
     public void bar(Runnable printBar) throws InterruptedException {
         for (int i = 0; i < n; i++) {
             try {
-                allowBar[i].get();
-            } catch (ExecutionException e) {
-                throw new RuntimeException(e);
+                barrier.await();
+            } catch (BrokenBarrierException e) {
+                Thread.currentThread().interrupt();
             }
             // printBar.run() outputs "bar". Do not change or remove this line.
             printBar.run();
-            allowFoo[i].complete(null);
+            fooTurn = true;
         }
     }
 }
