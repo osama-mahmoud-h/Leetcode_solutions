@@ -1,28 +1,32 @@
-import java.util.concurrent.Exchanger;
-
 class FooBar {
     private final int n;
-    private final Exchanger<Void> exchanger = new Exchanger<>();
+    private boolean isFooTurn = true;
 
     public FooBar(int n) {
         this.n = n;
     }
 
-    public void foo(Runnable printFoo) throws InterruptedException {
+    public synchronized void foo(Runnable printFoo) throws InterruptedException {
         for (int i = 0; i < n; i++) {
+            while (!isFooTurn) {
+                wait();
+            }
             // printFoo.run() outputs "foo". Do not change or remove this line.
             printFoo.run();
-            exchanger.exchange(null); // Rendezvous 1: allow bar to print
-            exchanger.exchange(null); // Rendezvous 2: wait for bar to finish
+            isFooTurn = false;
+            notifyAll();
         }
     }
 
-    public void bar(Runnable printBar) throws InterruptedException {
+    public synchronized void bar(Runnable printBar) throws InterruptedException {
         for (int i = 0; i < n; i++) {
-            exchanger.exchange(null); // Rendezvous 1: wait for foo to print
+            while (isFooTurn) {
+                wait();
+            }
             // printBar.run() outputs "bar". Do not change or remove this line.
             printBar.run();
-            exchanger.exchange(null); // Rendezvous 2: allow next foo
+            isFooTurn = true;
+            notifyAll();
         }
     }
 }
