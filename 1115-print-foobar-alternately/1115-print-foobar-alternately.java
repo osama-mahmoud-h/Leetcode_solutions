@@ -1,10 +1,8 @@
-import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.Exchanger;
 
 class FooBar {
     private final int n;
-    private final CyclicBarrier barrier = new CyclicBarrier(2);
-    private volatile boolean fooTurn = true;
+    private final Exchanger<Void> exchanger = new Exchanger<>();
 
     public FooBar(int n) {
         this.n = n;
@@ -12,30 +10,19 @@ class FooBar {
 
     public void foo(Runnable printFoo) throws InterruptedException {
         for (int i = 0; i < n; i++) {
-            while (!fooTurn) {
-                Thread.yield();
-            }
             // printFoo.run() outputs "foo". Do not change or remove this line.
             printFoo.run();
-            fooTurn = false;
-            try {
-                barrier.await();
-            } catch (BrokenBarrierException e) {
-                Thread.currentThread().interrupt();
-            }
+            exchanger.exchange(null); // Rendezvous 1: allow bar to print
+            exchanger.exchange(null); // Rendezvous 2: wait for bar to finish
         }
     }
 
     public void bar(Runnable printBar) throws InterruptedException {
         for (int i = 0; i < n; i++) {
-            try {
-                barrier.await();
-            } catch (BrokenBarrierException e) {
-                Thread.currentThread().interrupt();
-            }
+            exchanger.exchange(null); // Rendezvous 1: wait for foo to print
             // printBar.run() outputs "bar". Do not change or remove this line.
             printBar.run();
-            fooTurn = true;
+            exchanger.exchange(null); // Rendezvous 2: allow next foo
         }
     }
 }
