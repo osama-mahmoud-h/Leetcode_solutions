@@ -15,6 +15,7 @@ my solutions on leetcode site
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0835-image-overlap](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0835-image-overlap/) | Medium |
@@ -228,6 +229,7 @@ my solutions on leetcode site
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0048-rotate-image/) | Medium |
 | [0202-happy-number](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0202-happy-number/) | Easy |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0788-rotated-digits/) | Medium |
