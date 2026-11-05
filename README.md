@@ -23,6 +23,7 @@ my solutions on leetcode site
 | [1254-number-of-closed-islands](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1260-shift-2d-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
@@ -260,6 +261,7 @@ my solutions on leetcode site
 | [0033-search-in-rotated-sorted-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
@@ -277,6 +279,7 @@ my solutions on leetcode site
 | [0061-rotate-list](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0061-rotate-list/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0202-happy-number](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0202-happy-number/) | Easy |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1861-rotating-the-box/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
@@ -313,6 +316,7 @@ my solutions on leetcode site
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1331-rank-transform-of-an-array/) | Easy |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
