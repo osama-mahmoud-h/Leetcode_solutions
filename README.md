@@ -18,6 +18,7 @@ my solutions on leetcode site
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+| [0704-binary-search](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0704-binary-search/) | Easy |
 | [0835-image-overlap](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0835-image-overlap/) | Medium |
 | [0877-stone-game](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0877-stone-game/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -261,6 +262,7 @@ my solutions on leetcode site
 | [0033-search-in-rotated-sorted-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [0704-binary-search](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0704-binary-search/) | Easy |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
