@@ -430,6 +430,7 @@ my solutions on leetcode site
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0177-nth-highest-salary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0177-nth-highest-salary/) | Medium |
 | [0197-rising-temperature](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0197-rising-temperature/) | Easy |
 | [1193-monthly-transactions-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1193-monthly-transactions-i/) | Medium |
 | [1327-list-the-products-ordered-in-a-period](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1327-list-the-products-ordered-in-a-period/) | Easy |
