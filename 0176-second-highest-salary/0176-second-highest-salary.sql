@@ -9,17 +9,15 @@
 -- from salaries s
 
 
-select (
-    select distinct  e.salary as salary
-    from Employee e
-    order by e.salary desc 
-    limit 1 offset 1
-) as SecondHighestSalary;
-
 -- select (
---     select distinct e.salary 
+--     select distinct  e.salary as salary
 --     from Employee e
---     where e.salary < (select max(salary) from Employee) 
---     order by e.salary desc
---     limit 1
--- )as SecondHighestSalary
+--     order by e.salary desc 
+--     limit 1 offset 1
+-- ) as SecondHighestSalary;
+
+select (
+    select max(e.salary) 
+    from Employee e
+    where e.salary < (select max(e2.salary) from Employee e2) 
+)as SecondHighestSalary
