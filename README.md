@@ -431,6 +431,7 @@ my solutions on leetcode site
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0176-second-highest-salary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0176-second-highest-salary/) | Medium |
 | [0177-nth-highest-salary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0177-nth-highest-salary/) | Medium |
 | [0197-rising-temperature](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/0197-rising-temperature/) | Easy |
 | [1193-monthly-transactions-i](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1193-monthly-transactions-i/) | Medium |
