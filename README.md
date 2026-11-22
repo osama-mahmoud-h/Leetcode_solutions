@@ -133,6 +133,7 @@ my solutions on leetcode site
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2124-check-if-all-as-appears-before-all-bs/) | Easy |
 | [2409-count-days-spent-together](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2409-count-days-spent-together/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2833-furthest-point-from-origin](https://github.com/osama-mahmoud-h/Leetcode_solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
